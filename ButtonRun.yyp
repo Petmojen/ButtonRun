@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"Ground01","path":"sprites/Ground01/Ground01.yy",},"order":0,},
     {"id":{"name":"TODO","path":"objects/TODO/TODO.yy",},"order":0,},
+    {"id":{"name":"spr_ninjaAttack","path":"sprites/spr_ninjaAttack/spr_ninjaAttack.yy",},"order":2,},
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},"order":0,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"spr_ninja","path":"sprites/spr_ninja/spr_ninja.yy",},"order":0,},
