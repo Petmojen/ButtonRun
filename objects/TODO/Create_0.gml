@@ -1,6 +1,6 @@
 //TODO
 //Start = ... _ ._ ._. _
-//Håll knappen: Springer (I luften: dash)
+//Håll knappen: I luften: dash
 //Släpp knappen: Hoppa
 //Dubbel klick på marken: Dash attck
 //Klick: Swinga svärd

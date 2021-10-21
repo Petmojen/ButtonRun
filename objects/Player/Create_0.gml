@@ -4,5 +4,6 @@ moveSpeed = 0;
 jumpSpeed = 0;
 acceleration = 0;
 gravityNum = 9.8;
+distanceToEnemy = 0;
 
 image_speed = 0;

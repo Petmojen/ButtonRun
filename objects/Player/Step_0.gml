@@ -5,7 +5,8 @@ released_space = keyboard_check_released(vk_space);
 //run
 if(space){
 	moveSpeed += 1;	
-} else {
+	} 
+else {
 	moveSpeed = 0;
 }
 //jump
