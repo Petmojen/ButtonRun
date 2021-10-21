@@ -5,7 +5,7 @@
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},"order":0,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"spr_ninja","path":"sprites/spr_ninja/spr_ninja.yy",},"order":0,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"spr_redenemy","path":"sprites/spr_redenemy/spr_redenemy.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
