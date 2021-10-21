@@ -16,5 +16,12 @@ if(press_space /* && distance to enemy */){
 		
 }
 
+if(place_meeting(x, y, Ground) && !released_space){
+		gravityNum = 0;
+}
+
 clamp(moveSpeed, 0, 8);
 x = moveSpeed;
+y -= gravityNum;
+
+
