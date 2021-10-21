@@ -4,24 +4,31 @@ released_space = keyboard_check_released(vk_space);
 
 //run
 if(space){
-	moveSpeed += 0.5;	
+	moveSpeed += 1;	
+} else {
+	moveSpeed = 0;
 }
 //jump
 if(released_space){
-	jumpSpeed = moveSpeed;
-	y += jumpSpeed;
+	//jumpSpeed = acceleration;
+	//y -= jumpSpeed;
+	//x += jumpSpeed/2;
 }
 //attack
 if(press_space /* && distance to enemy */){
 		
 }
 
-if(place_meeting(x, y, Ground) && !released_space){
-		gravityNum = 0;
+if(place_meeting(x, y, Ground)){
+	gravityNum = 0;
+} else {
+	gravityNum = 9.8;	
 }
 
-clamp(moveSpeed, 0, 8);
-x = moveSpeed;
-y -= gravityNum;
+clamp(moveSpeed, 0, 10);
+acceleration += moveSpeed;
+x = acceleration;
+image_speed = moveSpeed*2;
+y += gravityNum;
 
 
