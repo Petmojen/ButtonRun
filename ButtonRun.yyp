@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"TODO","path":"objects/TODO/TODO.yy",},"order":0,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
+    {"id":{"name":"spr_ninja","path":"sprites/spr_ninja/spr_ninja.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
